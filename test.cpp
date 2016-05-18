@@ -21,7 +21,7 @@ int main() {
 		if (pre_itr->current() != NULL) {
 			pre_itr->current()->print();
 		}
-		cout << "Succesfully print" << endl;
+		cout << "\nSuccesfully print" << endl;
 		cout << endl;
 	}
 }

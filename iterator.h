@@ -86,6 +86,7 @@ protected:
 public:
 	PreOrderIterator(Base* ptr) : Iterator(ptr) {
 		//self_ptr = ptr;
+		current_ptr = self_ptr;
 	}
 	void first();
 	void next();
